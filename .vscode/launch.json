@@ -1,0 +1,18 @@
+{
+    // A Configuration Code For Vs-Code
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Odoo16",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceRoot}\\odoo-16.0\\odoo-bin",
+            "args": [
+                "--config=${workspaceRoot}\\conf\\odoo.conf",
+            ],
+            "gevent": false,
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
