@@ -11,3 +11,4 @@
 2. run comman `docker build . -t first_odoo:16.0 `
 2. `docker compose up` to run the project
 3. if necessary clean the volumes
+4. 
