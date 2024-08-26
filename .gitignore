@@ -1,0 +1,4 @@
+/venv
+/conf/odoo.conf
+myenvfile.env
+/odoo-16.0

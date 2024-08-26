@@ -1,0 +1,4 @@
+/odoo-16.0
+/conf/odoo copy.conf
+/venv
+myenvfile copy.env
