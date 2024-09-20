@@ -7,8 +7,8 @@
 5. run the project by Pycharm IDE or command `python odoo-16.0/odoo-bin -c conf/odoo.conf`
 
 ## PRODUCTION
-1. configure myenvfile.env and odoo.conf file
+1. configure `myenvfile.env` and `odoo.conf` and `.env` file
 2. run comman `docker build . -t first_odoo:16.0 `
 2. `docker compose up` to run the project
-3. if necessary clean the volumes
+3. if necessary clean the volumes or change volume names
 4. 

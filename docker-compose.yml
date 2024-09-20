@@ -1,4 +1,4 @@
-version: '3.1'
+# version: '3.1'
 services:
   odoo:
     image: first_odoo:16.0
@@ -6,7 +6,7 @@ services:
     depends_on:
       - postgres
     ports:
-      - "8069:8069" #port mapping(custom-port:8069)
+      - "${PORT}:8069" #port mapping(custom-port:8069)
     volumes:
       - odoo-web-data:/var/lib/odoo
       - ./conf:/etc/odoo
