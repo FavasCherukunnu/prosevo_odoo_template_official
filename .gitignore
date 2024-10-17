@@ -4,3 +4,4 @@ myenvfile.env
 /odoo-16.0
 /env
 .env
+*.pyc
