@@ -8,7 +8,7 @@
 
 ## PRODUCTION
 1. configure `myenvfile.env` and `odoo.conf` and `.env` file
-2. run comman `docker build . -t first_odoo:16.0 `
-2. `docker compose up` to run the project
-3. if necessary clean the volumes or change volume names
-4. 
+2. update `docker-compose.yml` as your need like sepperate volumes
+3. run comman `docker build . -t first_odoo:16.0 `
+4. `docker compose up` to run the project
+5. if necessary clean the volumes or change volume names
