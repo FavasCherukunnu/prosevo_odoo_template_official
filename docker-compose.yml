@@ -3,6 +3,7 @@ services:
   odoo:
     image: first_odoo:16.0
     env_file: myenvfile.env
+    container_name: "odoo-dev-web"
     depends_on:
       - postgres
     ports:
@@ -16,6 +17,7 @@ services:
   postgres:
     image: postgres:13
     env_file: myenvfile.env
+    container_name: "odoo-dev-db"
     volumes:
       - odoo-prosevo-db-data:/var/lib/pgsql/data/pgdata
     restart: always
