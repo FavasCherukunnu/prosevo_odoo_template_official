@@ -1,0 +1,14 @@
+services:
+  odoo:
+    image: first_odoo:16.0
+    env_file: myenvfile.env
+    container_name: "odoo-web"
+    network_mode: "host"
+    volumes:
+      - odoo-web-data:/var/lib/odoo
+      - ./conf:/etc/odoo
+      - ./custom-addons:/mnt/extra-addons
+      - ./extra-addons:/mnt/extra-addons-1
+    restart: always
+volumes:
+  odoo-web-data:
